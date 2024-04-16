@@ -1,0 +1,84 @@
+/**/
+.section-pedidos {
+    margin-top: 100px;
+    
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.section-pedidos h2{
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+
+.section-pedidos .contenido {
+    width: 100%;
+    height: auto;
+    border: 1px solid #AFB9DC;
+    margin: 3rem 0rem;
+    border-radius: 8px;
+    padding: 0.5rem 4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-pedido {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.info-pedido h2{
+    font-size: 3rem;
+    margin: 1rem 0rem;
+    font-weight: 600;
+}
+
+.info-pedido span{
+    font-size: 1.6rem;
+    margin: 0.2rem 0rem;
+}
+
+.info-pedido2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-pedido2 span{
+    font-size: 1.6rem;
+    margin: 1rem 0rem;
+}
+
+.info-pedido2 h3{
+    font-size: 2rem;
+}
+
+.info-pedido3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.info-pedido3 .barra{
+    margin: 0.7rem 0rem;
+    width: 100%;
+    height: 0.05rem;
+    border: 0.1rem solid rgba(230, 61, 61, 0.829);
+}
+
+.info-pedido3 span{
+    font-size: 1.6rem;
+    margin: 0.2rem 0rem;
+}

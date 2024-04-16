@@ -1,0 +1,165 @@
+/**/
+.usuarios{
+    margin-top: 10.5rem;
+    
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.padre1 {
+    width: 100%;
+    height: 4rem;
+    border: 0.1rem solid #c6cada;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+
+.padre2 {
+    width: 100%;
+    height: 6rem;
+    background-color: #EBECF0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+
+.padre3 {
+    width: 100%;
+    height: 6rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 45%;
+}
+
+.equipo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 45%;
+    color: #565458;
+}
+
+.equipo span  {
+    padding: 0rem 1.5rem;
+    font-size: 1.4rem;
+    color: #565458;
+    font-weight: 400;
+}
+
+.equipo b  {
+    padding: 0rem 1.5rem;
+    font-size: 1.7rem;
+    color: #131214;
+    font-weight: 700;
+}
+
+.status {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 25%;
+}
+
+.correo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+}
+
+.pic {
+    width: 5rem;
+}
+
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.estado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 8.5rem;
+    height: 2.5rem;
+    background-color: #cae9df;
+    border-radius: 2.5rem;
+    color: #23a66c;
+    padding: 0rem1.5rem;
+}
+
+.punto {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 100%;
+    background-color: #20a76a;
+}
+
+.estado2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.padre1 h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.estados {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 25%;
+    color: #565458;
+}
+
+.e-mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 30%;
+    color: #565458;
+}
+
+.correo2 {
+    font-size: 1.5rem;
+    color: #565458;
+    font-weight: 400;   
+}

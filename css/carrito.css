@@ -1,0 +1,48 @@
+/**/
+
+.carrito {
+    margin-top: 9rem;
+    
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.carrito h2{
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.section-carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; 
+
+    width: 100%;
+}
+
+.section-carrito div{
+    width: 25rem;
+    height: 13rem;
+    margin: 1.5rem 1rem;
+    border: 0.1rem solid #AFB9DC;
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.section-carrito i {
+    color: #ff6a00;
+    font-size: 2.5rem;
+}
+
+.section-carrito h3 {
+    font-size: 2rem;
+}
+
+.section-carrito span{
+    font-size: 1.5rem;
+}

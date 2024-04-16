@@ -1,0 +1,45 @@
+/**/
+
+.userpic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #ff6a00;
+    border-radius: 1rem;
+
+    width: 35rem;
+    height: 35rem;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 50%;
+    height: auto;
+}
+
+.info div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #2f2f2fe3;
+    border-radius: 1rem;
+
+    width: 20rem;
+    height: 10rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.info div span {
+    font-size: 1.4rem;
+}
+
+.info div h2 {
+    color: #ff6a00;
+}

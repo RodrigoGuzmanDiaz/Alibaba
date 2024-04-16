@@ -1,0 +1,78 @@
+/**/
+
+.marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+
+.marcas-contenedor {
+    margin-top: 15rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.t-marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-marcas h2 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.apple {
+    width: 140px;
+    padding: 1.5rem 1rem;
+}
+
+.microsoft {
+    width: 19rem;
+    padding: 1.5rem 1rem;
+}
+
+.lenovo {
+    width: 14rem;
+    padding: 1rem;
+    padding: 1.5rem 1rem;
+}
+
+.asus {
+    width: 14rem;
+    padding: 1.5rem 1rem;
+}
+
+.dell {
+    width: 13rem;
+    padding: 1.5rem 1rem;
+}
+
+.mono {
+    width: 200px;
+    padding: 1.5rem 1rem;
+}
+
+.sony {
+    width: 14rem;
+    padding: 1.5rem 1rem;
+}
+
+.caja {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0rem;
+}

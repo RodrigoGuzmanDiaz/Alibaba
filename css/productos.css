@@ -1,0 +1,41 @@
+/**/
+.products {
+    margin-top: 10rem;
+    
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products div {
+    width: 27rem;
+    height: 29rem;
+    border: 1px solid #AFB9DC;
+    border-radius: 1rem;
+    margin: 1.5rem 0.2rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.products div img{
+    width: 22rem;
+}
+
+.products div h3{
+    font-size: 2rem;
+}
+
+.products div span{
+    font-size: 1.6rem;
+}
+
+.cowin {
+    width: 16rem !important; 
+}
